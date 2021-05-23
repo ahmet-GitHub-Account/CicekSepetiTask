@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber HTML Reports</td>
+        <td>1</td>
+      <td>23 May 2021, 19:19</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()</td>
+              <td>7</td>
+              <td class="duration" data-value="898000">0.000</td>
+              <td class="duration" data-value="898000">0.002</td>
+              <td class="duration" data-value="6286000">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_body_has_null_value()</td>
+              <td>1</td>
+              <td class="duration" data-value="43831000">0.043</td>
+              <td class="duration" data-value="43831000">0.043</td>
+              <td class="duration" data-value="43831000">0.043</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_with_installment_option(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="359240666">0.359</td>
+              <td class="duration" data-value="359240666">0.984</td>
+              <td class="duration" data-value="1077722000">1.077</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="52451333">0.052</td>
+              <td class="duration" data-value="52451333">0.063</td>
+              <td class="duration" data-value="157354000">0.157</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()</td>
+              <td>7</td>
+              <td class="duration" data-value="1741153857">1.741</td>
+              <td class="duration" data-value="1741153857">3.348</td>
+              <td class="duration" data-value="12188077000">12.188</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)</td>
+              <td>7</td>
+              <td class="duration" data-value="1503285">0.001</td>
+              <td class="duration" data-value="1503285">0.005</td>
+              <td class="duration" data-value="10523000">0.010</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.Hooks.setUp()</td>
+              <td>9</td>
+              <td class="duration" data-value="1360378111">1.360</td>
+              <td class="duration" data-value="1360378111">1.757</td>
+              <td class="duration" data-value="12243403000">12.243</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</td>
+              <td>9</td>
+              <td class="duration" data-value="106600666">0.106</td>
+              <td class="duration" data-value="106600666">0.154</td>
+              <td class="duration" data-value="959406000">0.959</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()</td>
+              <td>9</td>
+              <td class="duration" data-value="61025777">0.061</td>
+              <td class="duration" data-value="61025777">0.083</td>
+              <td class="duration" data-value="549232000">0.549</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)</td>
+              <td>9</td>
+              <td class="duration" data-value="278527555">0.278</td>
+              <td class="duration" data-value="278527555">0.538</td>
+              <td class="duration" data-value="2506748000">2.506</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)</td>
+              <td>9</td>
+              <td class="duration" data-value="86945333">0.086</td>
+              <td class="duration" data-value="86945333">0.115</td>
+              <td class="duration" data-value="782508000">0.782</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()</td>
+              <td>9</td>
+              <td class="duration" data-value="2753170777">2.753</td>
+              <td class="duration" data-value="2753170777">4.425</td>
+              <td class="duration" data-value="24778537000">24.778</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()</td>
+              <td>9</td>
+              <td class="duration" data-value="43128761666">43.128</td>
+              <td class="duration" data-value="43128761666">1:23.202</td>
+              <td class="duration" data-value="388158855000">6:28.158</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>13</td>
+            <td>91</td>
+            <td class="duration">4.873</td>
+            <td class="duration">6:28.158</td>
+            <td class="duration">7:23.462</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

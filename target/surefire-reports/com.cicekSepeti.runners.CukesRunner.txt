@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.cicekSepeti.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 444.245 s <<< FAILURE! - in com.cicekSepeti.runners.CukesRunner
+send the request and check the "installment" is correct for products without installment option(Verify the api response is correct)  Time elapsed: 1.51 s  <<< FAILURE!
+java.lang.AssertionError
+
+send the request and check the "installmentText" is correct for products without installment option(Verify the api response is correct)  Time elapsed: 1.582 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[6 x 11,66 TL Taksit Seçeneği]>
+
+send the request and check the "productGroupIds" is correct for products without installment option(Verify the api response is correct)  Time elapsed: 1.465 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2.0> but was:<1.0>
+

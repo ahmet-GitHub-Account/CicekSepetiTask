@@ -1,0 +1,1756 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-23T16:12:06.270Z",
+        "line": 14,
+        "name": "send the request and check the \"installment\" is correct for products with installment option",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-\"\u003cinformation\u003e\"-is-correct-for-products-with-installment-option;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3348065000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5863000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2649000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984173000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check that the \"installment\" for products with installment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"installment\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_with_installment_option(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installment1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:10.699Z",
+        "line": 15,
+        "name": "send the request and check the \"installmentText\" is correct for products with installment option",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-\"\u003cinformation\u003e\"-is-correct-for-products-with-installment-option;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1350683000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 674000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59020000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check that the \"installmentText\" for products with installment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"installmentText\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_with_installment_option(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installment1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:12.118Z",
+        "line": 16,
+        "name": "send the request and check the \"productGroupIds\" is correct for products with installment option",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-\"\u003cinformation\u003e\"-is-correct-for-products-with-installment-option;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1726475000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 339000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34529000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check that the \"productGroupIds\" for products with installment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"productGroupIds\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_with_installment_option(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installment1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:13.885Z",
+        "line": 29,
+        "name": "send the request and check the \"installment\" is correct for products without installment option",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-\"\u003cinformation\u003e\"-is-correct-for-products-without-installment-option;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1437494000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1051000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertFalse(Assert.java:65)\n\tat org.junit.Assert.assertFalse(Assert.java:75)\n\tat com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(ApiStepDefs.java:123)\n\tat ✽.I check that the \"installment\" for products without installment option(file:///Users/ahmetvurdem/IdeaProjects/CicekSepetiTask/src/test/resources/features/api.feature:25)\n",
+              "duration": 63467000,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "I check that the \"installment\" for products without installment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"installment\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installment2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:15.401Z",
+        "line": 30,
+        "name": "send the request and check the \"installmentText\" is correct for products without installment option",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-\"\u003cinformation\u003e\"-is-correct-for-products-without-installment-option;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1518175000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 626000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[6 x 11,66 TL Taksit Seçeneği]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(ApiStepDefs.java:134)\n\tat ✽.I check that the \"installmentText\" for products without installment option(file:///Users/ahmetvurdem/IdeaProjects/CicekSepetiTask/src/test/resources/features/api.feature:25)\n",
+              "duration": 47969000,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "I check that the \"installmentText\" for products without installment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"installmentText\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installment2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:16.977Z",
+        "line": 31,
+        "name": "send the request and check the \"productGroupIds\" is correct for products without installment option",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-\"\u003cinformation\u003e\"-is-correct-for-products-without-installment-option;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1411403000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 643000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c2.0\u003e but was:\u003c1.0\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:120)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(ApiStepDefs.java:145)\n\tat ✽.I check that the \"productGroupIds\" for products without installment option(file:///Users/ahmetvurdem/IdeaProjects/CicekSepetiTask/src/test/resources/features/api.feature:25)\n",
+              "duration": 45918000,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "I check that the \"productGroupIds\" for products without installment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"productGroupIds\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_for_products_without_installment_option(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installment2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:18.442Z",
+        "line": 36,
+        "name": "send the request and check the body has null value",
+        "description": "",
+        "id": "verify-the-api-response-is-correct;send-the-request-and-check-the-body-has-null-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1395782000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 700000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "content type is should be json",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.content_type_is_should_be_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43831000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I check that the body has null value",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.ApiStepDefs.i_check_that_the_body_has_null_value()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@installments"
+          },
+          {
+            "name": "@api"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@installmentNull"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the api response is correct",
+    "description": "",
+    "id": "verify-the-api-response-is-correct",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api.feature",
+    "tags": [
+      {
+        "name": "@installments",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2479778000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:19.888Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1757701000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 93686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 271864000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"valid@email.com\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid@email.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98281000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"valid\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83018000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3053136000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2708279000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:12:27.739Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1338184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 100420000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 272585000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"valid@email.com\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid@email.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81257000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76752000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43162496000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2429533000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:13:15.502Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1353607000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 94304000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 206145000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101892000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"valid\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78403000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23094329000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2574973000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:13:42.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1283601000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 97561000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 242134000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"@invalidEmail\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"@invalidEmail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84549000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"valid\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54262000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43103668000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2369040000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:14:30.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1274421000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 91891000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 263905000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"\u0027\\;[];@123.co.uk\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0027\\;[];@123.co.uk\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79310000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"valid\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58182000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43102343000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2591799000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:15:17.556Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1270509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 95628000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228393000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"1232683o289287!4@.net\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1232683o289287!4@.net\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82389000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"valid\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56624000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43157412000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2725510000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:16:05.043Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1289699000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 135202000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 225735000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"valid@email.com\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid@email.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73041000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"a\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47181000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83178918000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2474040000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:17:32.722Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1285421000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 154058000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 257850000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"valid@email.com\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid@email.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115369000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"moreThan20characterForPassword\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moreThan20characterForPassword\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45898000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83202745000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4425585000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:19:00.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1390260000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "(Negative) Using invalid credentials to sign in",
+        "description": "",
+        "id": "user-try-to-login-with-invalid-credentials;(negative)-using-invalid-credentials-to-sign-in;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 96656000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 538137000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user inputs \"MoreThanHundredCharacterGazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazq@c.com\" into email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MoreThanHundredCharacterGazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazqazq@c.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66420000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user inputs \"\" into password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_inputs_into_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48912000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the sign in button",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23103808000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the warning message",
+            "match": {
+              "location": "com.cicekSepeti.step_definitions.LoginStepDefs.the_user_should_see_the_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "User try to login with invalid credentials",
+    "description": "",
+    "id": "user-try-to-login-with-invalid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@UI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
