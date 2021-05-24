@@ -6,7 +6,6 @@ import io.cucumber.java.en.When;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import com.google.gson.Gson;
-import org.junit.ComparisonFailure;
 
 import java.util.List;
 import java.util.Map;

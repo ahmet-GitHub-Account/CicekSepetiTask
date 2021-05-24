@@ -1,4 +1,4 @@
-Optiim UI Automation Testing & Instructions
+Çiçek Sepeti UI/API Automation Testing & Instructions
 Prepared by:
 Ahmet VURDEM
 
@@ -51,7 +51,7 @@ System Requirements:
     - open target/cucumber-html-reports/overview-features.html
 
 
-The HTML report of the execution is under :  Optiim > Screen Shot 2021-05-13 at 20.43.28.png
+The HTML report of the execution is under :  CicekSepetiTask > target/cucumber-html-reports/overview-features.html
 
 ****************************************************************
 
@@ -75,6 +75,9 @@ test edildi.
 4. Execution sonucunda Cucumber report create edildi.
 5. Raporda da görüldüğü gibi; taksit seçeneği olmaması gereken ürünlerden bir tanesinde taksit seçeneği bulundu.
 6. Bu durum defect olarak değerlendirilebilir.
+
+Not: Taksit seçeneği olmaması gereken ürünlerden bir tanesinde taksit seçeneği vardı. 
+Burada error almamak için try-catch block kullanılabilir. Gerekli blok yazılarak commentlendi. 
 
 
 2021 May®

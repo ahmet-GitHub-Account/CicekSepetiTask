@@ -17,9 +17,6 @@ public class LoginPage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(xpath = "//span[@class='policy-popup__close icon-close js-policy-close']")
-    public WebElement cookiesButton;
-
     @FindBy(css = "#EmailLogin")
     public WebElement emailInputBox;
 
